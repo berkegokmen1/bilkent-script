@@ -16,6 +16,7 @@ pip install termcolor
 
 ## Credentials
 You need to configure the credentials.json file.
+Please note that you have to be using bilkent mail instead of your phone for the starts code provider.
 
 ```json
 {
