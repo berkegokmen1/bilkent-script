@@ -38,7 +38,7 @@ bilkent() {
 	echo running bilkent...
 	clear
 	cd -PATH TO THE FOLDER CONTAINING PY FILES-
-	python3 $1.py
+	python3 bilkent.py $1
 	cd /Applications
 	killall chromedriver
 }
