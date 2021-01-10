@@ -28,25 +28,26 @@ Please note that you have to be using bilkent mail instead of your phone for the
 
 ```
 
-## Recommended commands (For zsh users)
-1. open ~/.zshrc file with a code editor. (nano)
-2. type in following command.
+## Desktop shortcuts for mac users 
+# (Shortcuts for windows are on the way)
+1. open stars.command and zoom.command using a text editor.
+2. type in the folder path to the specified area.
 ```zsh
-nano ~/.zshrc
-
-bilkent() {
-	echo running bilkent...
-	clear
-	cd -PATH TO THE FOLDER CONTAINING PY FILES-
-	python3 bilkent.py $1
-	cd /Applications
-	killall chromedriver
-}
-
+echo running bilkent...
+clear
+cd -PATH TO THE FOLDER CONTAINING PY FILES-
+python3 bilkent.py stars
+cd /Applications
+killall chromedriver
+killall Terminal
 ```
-3. save the file and exit.
+3. save the files and exit.
+# 4. If you see an error saying “File could not be executed because you do not have appropriate access privileges” then try running the command below
+```zsh
+chmod u+x /Users/-YOUR USERNAME-/Desktop/stars.command
+chmod u+x /Users/-YOUR USERNAME-/Desktop/zoom.command
 
-This command will allow you to run the script directly from terminal by simply typing "bilkent zoom" or "bilkent stars" depending on what you want to do.
+You can then use the .command files to run the scripts
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
