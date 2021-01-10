@@ -46,7 +46,7 @@ killall Terminal
 ```zsh
 chmod u+x /Users/-YOUR USERNAME-/Desktop/stars.command
 chmod u+x /Users/-YOUR USERNAME-/Desktop/zoom.command
-
+```
 You can then use the .command files to run the scripts
 
 ## Contributing
