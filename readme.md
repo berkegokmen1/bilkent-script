@@ -44,7 +44,7 @@ killall Terminal
 ```
 3. save the files and exit.
 
-### 4. If you see an error saying “File could not be executed because you do not have appropriate access privileges” then try running the command below
+#### If you see an error saying “File could not be executed because you do not have appropriate access privileges” then try running the command below
 
 ```zsh
 chmod u+x /Users/-YOUR USERNAME-/Desktop/stars.command
