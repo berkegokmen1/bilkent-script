@@ -28,8 +28,9 @@ Please note that you have to be using bilkent mail instead of your phone for the
 
 ```
 
-## Desktop shortcuts for mac users ### (Shortcuts for windows are on the way)
+## Desktop shortcuts for Mac users
 
+0. (Shortcuts for windows are on the way)
 1. open stars.command and zoom.command using a text editor.
 2. type in the folder path to the specified area.
 ```zsh
