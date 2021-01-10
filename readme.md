@@ -28,8 +28,8 @@ Please note that you have to be using bilkent mail instead of your phone for the
 
 ```
 
-## Desktop shortcuts for mac users 
-# (Shortcuts for windows are on the way)
+## Desktop shortcuts for mac users ### (Shortcuts for windows are on the way)
+
 1. open stars.command and zoom.command using a text editor.
 2. type in the folder path to the specified area.
 ```zsh
@@ -42,7 +42,9 @@ killall chromedriver
 killall Terminal
 ```
 3. save the files and exit.
-# 4. If you see an error saying “File could not be executed because you do not have appropriate access privileges” then try running the command below
+
+### 4. If you see an error saying “File could not be executed because you do not have appropriate access privileges” then try running the command below
+
 ```zsh
 chmod u+x /Users/-YOUR USERNAME-/Desktop/stars.command
 chmod u+x /Users/-YOUR USERNAME-/Desktop/zoom.command
